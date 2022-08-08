@@ -1,1 +1,1 @@
-web: gunicorn Heroku Deployment.wsgi --log-file - 
+web: gunicorn app:app
